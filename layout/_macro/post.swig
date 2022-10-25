@@ -241,7 +241,8 @@
           {% if post.type == "prob" %}
             <div style="margin-left: 1.5em;">
               <div style="font-size: .95em;">题目来源</div>
-              <a style="color: #4370af;border-bottom: none !important;" href="{{ post.probinfo.link }}"> {{ post.probinfo.name }}</a>
+              <a title="题目名称：{{ post.probinfo.name }}
+题目难度：{{ post.probinfo.difficultly }}" style="color: #4370af;border-bottom: none !important;" href="{{ post.probinfo.link }}">{{ post.probinfo.id }}</a>
             </div>
           {% endif %}
         </span>
