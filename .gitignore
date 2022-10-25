@@ -13,8 +13,3 @@ source/lib/*
 !source/lib/font-awesome/
 !source/lib/anime.min.js
 !source/lib/velocity/
-
-
-
-
-_config.yml
