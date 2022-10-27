@@ -245,6 +245,10 @@
 题目难度：{{ post.probinfo.difficultly }}" style="color: #4370af;border-bottom: none !important;" href="{{ post.probinfo.link }}">{{ post.probinfo.id }}</a>
             </div>
           {% endif %}
+          <div style="margin-left: 1.5em;">
+            <div style="font-size: .95em;">最后一次更新</div>
+            <div style="color: #5d7219;">{{ post.upd }}</div>
+          </div>
         </span>
         <div style="font-size: .95em;">请勿转载本文内容。</div>
       </blockquote>
