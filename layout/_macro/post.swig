@@ -238,13 +238,6 @@
             <div style="font-size: .95em;">本文作者</div>
             <div style="color: #e67e22;">hjl2011</div>
           </div>
-          {% if post.type == "prob" %}
-            <div style="margin-left: 1.5em;">
-              <div style="font-size: .95em;">题目来源</div>
-              <a title="题目名称：{{ post.probinfo.name }}
-题目难度：{{ post.probinfo.difficultly }}" style="color: #4370af;border-bottom: none !important;" href="{{ post.probinfo.link }}">{{ post.probinfo.id }}</a>
-            </div>
-          {% endif %}
           <div style="margin-left: 1.5em;">
             <div style="font-size: .95em;">最后一次更新</div>
             <div style="color: #5d7219;">{{ post.upd }}</div>
